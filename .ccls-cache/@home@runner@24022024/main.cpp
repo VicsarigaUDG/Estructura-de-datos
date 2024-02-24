@@ -9,13 +9,13 @@ public:
 class Pilas {
 public:
   Pilas();
-  //void append(float value);
-  //void insertAt(int pos, float value);
-  void push(float value); 
+  // void append(float value);
+  // void insertAt(int pos, float value);
+  void push(float value);
   void pop();
-  //void removeAt(int pos);
-  //void removeLast();
-  //void removeAtValue(float value);
+  // void removeAt(int pos);
+  // void removeLast();
+  // void removeAtValue(float value);
   void peek();
 
   void print();
@@ -36,7 +36,7 @@ void Pilas::push(float value) {
     vtx->next = head;
   else
     tail = vtx;
-    head = vtx;
+  head = vtx;
 }
 
 /*void Pilas::append(int value) {
@@ -201,4 +201,5 @@ int main() {
   // lista.removeFirst();
   // lista.removeAtValue(-2);
   // lista.print();
+  pila1.peek();
 }
